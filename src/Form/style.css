@@ -1,0 +1,40 @@
+.form {
+    padding: 20px;
+    display: flex;
+ }
+ 
+ .form__field {
+    margin-right: 20px;
+    padding: 8px 5px;
+    border: 1px solid lightgray;
+    flex-grow: 1;
+ }
+ 
+ .form__field:enabled {
+    border-color: lightgrey;
+ }
+ 
+ .form__field:read-only {
+    color: lightgrey;
+ }
+ 
+ .form__button {
+    background-color: teal;
+    color: white;
+    border: none;
+    width: auto;
+    padding: 8px 20px;
+    transition: 0.1s;
+    cursor: pointer;
+ }
+ 
+ .form__button:hover {
+    background-color: darkcyan;
+    transition: 0.2s;
+    transform: scale(105%);
+ }
+ 
+ .form__button:active {
+    background-color: lightseagreen;
+    transform: translateY(1px);
+ }
