@@ -1,3 +1,4 @@
+import React from 'react';
 import "./style.css";
 
 const Buttons = ({ tasks, hiddenDoneTasks }) => (
