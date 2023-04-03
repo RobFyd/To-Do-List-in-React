@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/to-do-list-react-build/static/css/main.9de6e878.css",
-    "main.js": "/to-do-list-react-build/static/js/main.36b7943d.js",
-    "static/js/787.31f124d9.chunk.js": "/to-do-list-react-build/static/js/787.31f124d9.chunk.js",
-    "index.html": "/to-do-list-react-build/index.html",
-    "main.9de6e878.css.map": "/to-do-list-react-build/static/css/main.9de6e878.css.map",
-    "main.36b7943d.js.map": "/to-do-list-react-build/static/js/main.36b7943d.js.map",
-    "787.31f124d9.chunk.js.map": "/to-do-list-react-build/static/js/787.31f124d9.chunk.js.map"
+    "main.css": "/To-Do-List-in-React/static/css/main.9de6e878.css",
+    "main.js": "/To-Do-List-in-React/static/js/main.2c662f99.js",
+    "static/js/787.31f124d9.chunk.js": "/To-Do-List-in-React/static/js/787.31f124d9.chunk.js",
+    "index.html": "/To-Do-List-in-React/index.html",
+    "main.9de6e878.css.map": "/To-Do-List-in-React/static/css/main.9de6e878.css.map",
+    "main.2c662f99.js.map": "/To-Do-List-in-React/static/js/main.2c662f99.js.map",
+    "787.31f124d9.chunk.js.map": "/To-Do-List-in-React/static/js/787.31f124d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9de6e878.css",
-    "static/js/main.36b7943d.js"
+    "static/js/main.2c662f99.js"
   ]
 }
