@@ -1,6 +1,43 @@
-# To Do List
+# **To Do List in React.js**
 
-##Description
+## *Description*
+
+The next stage in which the To-Do-List tool was moved to React.js. I created it as part of the "Frontend developer from scratch" course. Below is a demo of the project. The tool is still being improved.
+
+### Demo
+
+![To Do List](https://github.com/RobFyd/To-Do-List/blob/main/gif/todolist.gif?raw=true)
+
+My To Do List in React contains:
+
+- JavaScript - ES6
+- React.js
+- ReactDOM, Babel
+- Webpack
+- Node.js
+- Immutability
+- HTML
+- BEM convention
+- CSS
+- Flex
+- Grid
+- querySelector
+
+My logo:
+
+![LOGO](https://github.com/RobFyd/BMI-Calculator/blob/main/fotos/RFLogo.png?raw=true)
+
+If you want to learn more and test the functionality of my tool, click below:
+
+👇
+
+[To Do List](https://robfyd.github.io/To-Do-List-in-React/)
+
+
+```javascript
+let x = "love coding";
+console.log(x);
+```
 
 ## Getting Started with Create React App
 
