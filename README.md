@@ -36,7 +36,7 @@ If you want to learn more and test the functionality of my tool, click below:
 
 ```javascript
 let x = "love coding";
-console.log(x);
+console.log(x+" :)");
 ```
 
 ## Getting Started with Create React App
