@@ -6,11 +6,6 @@ import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 
-import * as helllo from "./utilis/hello";
-
-helllo.hello();
-console.log(helllo.name);
-
 const tasks = [
    { id: 1, content: "react starting", done: false },
    { id: 2, content: "finish breakfast", done: true },
