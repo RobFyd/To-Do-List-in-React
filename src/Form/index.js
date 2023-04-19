@@ -6,8 +6,8 @@ const Form = ({ addNewTask }) => {
 
    const onFormSubmit = (event) => {
       event.preventDefault();
-      if (newTaskContent.trim() !== "") {    // tutaj if nowy
-         addNewTask(newTaskContent.trim());
+      if (newTaskContent.trim() !== "") {
+         addNewTask(newTaskContent);
          setNewTaskContent("");
       }
    };
@@ -18,6 +18,7 @@ const Form = ({ addNewTask }) => {
             value={newTaskContent}
             className="form__field"
             required
+            autoFocus
             placeholder="What needs to be done?"
             onChange={({ target }) => setNewTaskContent(target.value)}
          />
