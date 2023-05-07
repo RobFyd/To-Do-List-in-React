@@ -47,16 +47,12 @@ function App() {
    };
 
    return (
-
       <Container>
-
          <Header title="Task list" />
-
          <Section
             title="Add a new task"
             body={<Form addNewTask={addNewTask} />}
          />
-
          <Section
             title="Your tasks"
             body={
