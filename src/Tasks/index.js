@@ -1,4 +1,3 @@
-import React from 'react';
 import "./style.css";
 
 const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
