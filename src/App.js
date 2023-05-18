@@ -11,10 +11,12 @@ function App() {
 
    const taskStorage = localStorage.getItem("tasks");
 
-   const [tasks, setTasks] = useState(taskStorage ? JSON.parse(taskStorage) : [
+   const defaultTasks = [
       { id: 1, content: "presentation field", done: false },
       { id: 2, content: "presentation field", done: true },
-   ]);
+   ];
+
+   const [tasks, setTasks] = useState(JSON.parse(taskStorage) || defaultTasks);
 
    useEffect(() => {
       localStorage.setItem("tasks", JSON.stringify(tasks));
