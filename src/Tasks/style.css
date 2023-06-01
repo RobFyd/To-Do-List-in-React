@@ -1,40 +1,7 @@
-
-.task__done {
-   background-color: darkgreen;
-   border: none;
-   color: white;
-   cursor: pointer;
-   width: 30px;
-   height: 30px;
-   padding: 0;
-   transition: 0.5s;
-}
-
-.task__done:hover {
-   background-color: green;
-   transition: 0.5s;
-}
-
 .task__done:active {
    border: 2px solid black;
    border-radius: 3px;
    transition: none;
-}
-
-.task__remove {
-   background-color: crimson;
-   border: none;
-   color: white;
-   cursor: pointer;
-   width: 30px;
-   height: 30px;
-   padding: 0;
-   transition: 0.5s;
-}
-
-.task__remove:hover {
-   background-color: red;
-   transition: 0.5s;
 }
 
 .task__remove:active {

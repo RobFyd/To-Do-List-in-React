@@ -24,3 +24,36 @@ export const Content = styled.span`
         text-decoration: line-through;
     `}
 `;
+
+export const DoneButton = styled.button`
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: green;
+        transition: 0.5s;
+    }
+`;
+
+export const RemoveButton = styled.button`
+    background-color: crimson;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: red;
+        transition: 0.5s;
+    }
+`;
+
