@@ -26,7 +26,7 @@ export const Content = styled.span`
 `;
 
 export const DoneButton = styled.button`
-    background-color: darkgreen;
+    background-color: hsl(120, 61%, 34%);
     border: none;
     color: white;
     cursor: pointer;
@@ -36,13 +36,17 @@ export const DoneButton = styled.button`
     transition: 0.5s;
 
     &:hover {
-        background-color: green;
+        background-color: hsl(120, 61%, 39%);
         transition: 0.5s;
+    }
+
+    &:active {
+        background-color: hsl(120, 61%, 44%);
     }
 `;
 
 export const RemoveButton = styled.button`
-    background-color: crimson;
+    background-color: hsl(348, 83%, 47%);
     border: none;
     color: white;
     cursor: pointer;
@@ -52,8 +56,12 @@ export const RemoveButton = styled.button`
     transition: 0.5s;
 
     &:hover {
-        background-color: red;
+        background-color: hsl(348, 83%, 55%);
         transition: 0.5s;
+    }
+
+    &:active {
+        background-color: hsl(348, 83%, 63%);
     }
 `;
 

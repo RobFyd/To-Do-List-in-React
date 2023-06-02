@@ -8,7 +8,6 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
             key={task.id}
          >
             <DoneButton
-               className="task__done task__done--active"
                onClick={() => toggleTaskDone(task.id)}
             >
                {task.done ? "✔" : ""}
@@ -19,7 +18,6 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
             </Content>
 
             <RemoveButton
-               className="task__remove task__remove--active"
                onClick={() => removeTask(task.id)}
             >🗑</RemoveButton>
          </Item>
