@@ -26,5 +26,3 @@ const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
 );
 
 export default Tasks;
-
-//34 min
