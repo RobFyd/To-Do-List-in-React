@@ -23,6 +23,10 @@ export const Content = styled.span`
     ${({ done }) => done && css`
         text-decoration: line-through;
     `}
+
+    @media (max-width: 500px) {
+        word-wrap: break-word;
+    }
 `;
 
 export const DoneButton = styled.button`
