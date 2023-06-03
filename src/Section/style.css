@@ -15,13 +15,6 @@
  
  .section__header {
     margin: 0;
-    padding: 20px;
-    font-size: 18px;
-    border-bottom: 1px solid lightgray;
- }
- 
- .section__header2 {
-    margin: 0;
     margin-right: auto;
     font-size: 18px;
  }
@@ -47,21 +40,21 @@
        word-wrap: break-word;
     }
     
-    .section__container {
+    /* .section__container {
        display: flex;
        flex-direction: column;
-    }
+    } */
  
     .section__buttons {
        display: flex;
        flex-direction: column;
     }
  
-    .section__header2 {
+    /* .section__header {
        margin-bottom: 10px;
-    }
+    } */
  
-    .button__hideCompleted {
+    /* .button__hideCompleted {
        margin-bottom: 10px;
-    }
+    } */
  }
