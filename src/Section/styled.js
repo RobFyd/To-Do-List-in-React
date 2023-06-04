@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Section1 = styled.section`
+export const TasksSection = styled.section`
     margin: 10px 0;
     box-shadow: 0 0 5px 1px gainsboro;
     background-color: white;

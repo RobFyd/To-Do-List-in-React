@@ -1,14 +1,13 @@
-// import "./style.css";
-import { Section1, Container, Header } from "./styled";
+import { TasksSection, Container, Header } from "./styled";
 
 const Section = ({ title, body, extraHeaderContent }) => (
-   <Section1>
+   <TasksSection>
       <Container>
          <Header>{title}</Header>
          {extraHeaderContent}
       </Container>
       {body}
-   </Section1>
+   </TasksSection>
 );
 
 export default Section;
