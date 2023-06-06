@@ -7,15 +7,15 @@ import Header from "./Header";
 import Container from "./Container";
 import { useTasks } from "./useTasks";
 
-
-// const {
-//    tasks,
-//    removeTask,
-//    toggleTaskDone,
-//    setAllDone,
-//    addNewTask,
-// } = useTasks();
-
+// function App() {
+//   const {
+//      tasks,
+//      removeTask,
+//      toggleTaskDone,
+//      setAllDone,
+//      addNewTask,
+//   } = useTasks();
+// }
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
