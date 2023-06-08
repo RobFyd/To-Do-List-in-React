@@ -22,7 +22,7 @@ export const Button = styled.button`
     css`
       margin: 0px 15px 0px 0px;
 
-      @media (max-width: 500px) {
+      @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-bottom: 5px;
       }
     `}

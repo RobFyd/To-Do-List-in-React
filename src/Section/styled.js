@@ -14,7 +14,7 @@ export const Container = styled.div`
   align-items: center;
   border-bottom: 1px solid ${({ theme }) => theme.lightgray};
 
-  @media (max-width: 500px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     display: flex;
     flex-direction: column;
   }
@@ -25,7 +25,7 @@ export const Header = styled.h2`
   margin-right: auto;
   font-size: 18px;
 
-  @media (max-width: 500px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     margin-bottom: 10px;
   }
 `;

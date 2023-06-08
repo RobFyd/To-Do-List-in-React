@@ -4,7 +4,7 @@ export const TasksForm = styled.form`
   padding: 20px;
   display: flex;
 
-  @media (max-width: 500px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     display: flex;
     flex-direction: column;
     flex-basis: 1;
@@ -25,7 +25,7 @@ export const Field = styled.input`
     color: ${({ theme }) => theme.red}; //nie dziala
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     margin: 0;
   }
 `;
@@ -50,9 +50,7 @@ export const Button = styled.button`
     transform: translateY(1px);
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     margin-top: 15px;
-    display: flex;
-    justify-content: center;
   }
 `;

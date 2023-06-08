@@ -27,10 +27,6 @@ export const Content = styled.span`
     css`
       text-decoration: line-through;
     `}
-
-  @media (max-width: 500px) {
-    word-wrap: break-word;
-  }
 `;
 
 export const DoneButton = styled.button`
