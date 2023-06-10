@@ -8,11 +8,7 @@ export const theme = {
   gainsboro: "#dcdcdc",
   transparent: "rgba(0,0,0,0)",
   forestgreen: "#228c22",
-  forestgreenHover: "#27a027",
-  forestgreenActive: "#2cb52c",
   amaranth: "#db143c",
-  amaranthHover: "#eb2d53",
-  amaranthActive: "#ef5272",
 
   breakpoints: {
     mobileMax: 500,

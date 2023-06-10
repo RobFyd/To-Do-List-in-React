@@ -40,12 +40,12 @@ export const DoneButton = styled.button`
   transition: 0.5s;
 
   &:hover {
-    background-color: ${({ theme }) => theme.forestgreenHover};
+    filter: brightness(120%);
     transition: 0.5s;
   }
 
   &:active {
-    background-color: ${({ theme }) => theme.forestgreenActive};
+    filter: brightness(140%);;
   }
 `;
 
@@ -60,13 +60,12 @@ export const RemoveButton = styled.button`
   transition: 0.5s;
 
   &:hover {
-    background-color: ${({ theme }) => theme.amaranthHover};
+    filter: brightness(120%);
     border: none;
     transition: 0.5s;
   }
 
   &:active {
-    background-color: ${({ theme }) => theme.amaranthActive};
-    border: none;
+    filter: brightness(160%);
   }
 `;
