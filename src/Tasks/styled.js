@@ -29,7 +29,7 @@ export const Content = styled.span`
     `}
 `;
 
-export const DoneButton = styled.button`
+export const Button = styled.button`
   background-color: ${({ theme }) => theme.forestgreen};
   border: none;
   color: white;
@@ -45,25 +45,12 @@ export const DoneButton = styled.button`
   }
 
   &:active {
-    filter: brightness(140%);;
+    filter: brightness(140%);
   }
 `;
 
-export const RemoveButton = styled.button`
+export const DeleteButton = styled(Button)`
   background-color: ${({ theme }) => theme.amaranth};
-  border: none;
-  color: white;
-  cursor: pointer;
-  width: 30px;
-  height: 30px;
-  padding: 0;
-  transition: 0.5s;
-
-  &:hover {
-    filter: brightness(120%);
-    border: none;
-    transition: 0.5s;
-  }
 
   &:active {
     filter: brightness(160%);
