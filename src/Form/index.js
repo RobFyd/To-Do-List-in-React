@@ -10,11 +10,8 @@ const Form = ({ addNewTask }) => {
     if (newTaskContent.trim() !== "") {
       addNewTask(newTaskContent);
       setNewTaskContent("");
+      inputRef.current.focus();
     }
-  };
-
-  const focusInput = () => {
-    inputRef.current.focus();
   };
 
   return (
@@ -26,7 +23,7 @@ const Form = ({ addNewTask }) => {
         placeholder="What needs to be done?"
         onChange={({ target }) => setNewTaskContent(target.value)}
       />
-      <Button onClick={focusInput}>Add a task</Button>
+      <Button>Add a task</Button>
     </TasksForm>
   );
 };
