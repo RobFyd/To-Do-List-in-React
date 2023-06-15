@@ -13,7 +13,7 @@ export const Button = styled.button`
   }
 
   &:disabled {
-    color: ${({ theme }) => theme.red};  // not working
+    color: ${({ theme }) => theme.lightgray};
     cursor: auto;
   }
 
