@@ -5,24 +5,3 @@ export const Container = styled.main`
     padding: 20px;
     margin: 0 auto;
 `;
-
-
-
-
-
-
-
-
-
-
-// index.js
-
-// import { MainContainer } from"./styled";
-
-// const Container = ({ children }) => (
-//     <MainContainer>
-//         {children}
-//     </MainContainer>
-// );
-
-// export default Container;
