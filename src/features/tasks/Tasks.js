@@ -7,14 +7,21 @@ import Header from "../../common/Header";
 import Container from "../../common/Container";
 import { useTasks } from "../../useTasks";
 import { selectTasks } from "./tasksSlice";
+import { useState } from "react";
 
 function Tasks() {
   const { tasks } = useSelector(selectTasks);
 
+  const [hideDone, setHideDone] = useState(false);
+
+  const toggleHideDone = () => {
+    setHideDone((hideDone) => !hideDone);
+  };
+
   const {
     // tasks,
-    hideDone,
-    toggleHideDone,
+    // hideDone,
+    // toggleHideDone,
     removeTask,
     toggleTaskDone,
     setAllDone,
