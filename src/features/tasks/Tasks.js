@@ -12,11 +12,11 @@ import { useState } from "react";
 function Tasks() {
   const { tasks } = useSelector(selectTasks);
 
-  const [hideDone, setHideDone] = useState(false);
+  // const [hideDone, setHideDone] = useState(false);
 
-  const toggleHideDone = () => {
-    setHideDone((hideDone) => !hideDone);
-  };
+  // const toggleHideDone = () => {
+  //   setHideDone((hideDone) => !hideDone);
+  // };
 
   const {
     // tasks,
@@ -37,7 +37,7 @@ function Tasks() {
         body={
           <TaskList
             tasks={tasks}
-            hideDone={hideDone}
+            // hideDone={hideDone}
             removeTask={removeTask}
             toggleTaskDone={toggleTaskDone}
           />
@@ -45,8 +45,8 @@ function Tasks() {
         extraHeaderContent={
           <Buttons
             tasks={tasks}
-            hideDone={hideDone}
-            toggleHideDone={toggleHideDone}
+            // hideDone={hideDone}
+            // toggleHideDone={toggleHideDone}
             setAllDone={setAllDone}
           />
         }
