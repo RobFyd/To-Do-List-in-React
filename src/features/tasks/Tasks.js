@@ -22,12 +22,11 @@ function Tasks() {
         title="Your tasks"
         body={
           <TaskList
-            tasks={tasks}
             removeTask={removeTask}
             toggleTaskDone={toggleTaskDone}
           />
         }
-        extraHeaderContent={<Buttons tasks={tasks} setAllDone={setAllDone} />}
+        extraHeaderContent={<Buttons setAllDone={setAllDone} />}
       />
     </Container>
   );
