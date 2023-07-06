@@ -21,10 +21,7 @@ function Tasks() {
       <Section
         title="Your tasks"
         body={
-          <TaskList
-            removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
-          />
+          <TaskList removeTask={removeTask} toggleTaskDone={toggleTaskDone} />
         }
         extraHeaderContent={<Buttons setAllDone={setAllDone} />}
       />
