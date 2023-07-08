@@ -4,7 +4,9 @@ import { selectTasks, toggleHideDone } from "../tasksSlice";
 
 const Buttons = ({ setAllDone }) => {
   const { tasks, hideDone } = useSelector(selectTasks);
+
   const dispatch = useDispatch();
+  
   return (
     <div>
       {tasks.length > 0 && (
