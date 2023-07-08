@@ -16,8 +16,15 @@ My To Do List in React contains:
 - Webpack
 - Node.js
 - Immutability
+- Hooks
 - Custom Hooks
+- Node.js
+- Local Storage
+- ES6 + features
+- React - Redux
+- Redux Toolkit
 - HTML
+- Babel
 - BEM convention
 - CSS
 - Styled Components
