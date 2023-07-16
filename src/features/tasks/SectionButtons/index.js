@@ -1,21 +1,23 @@
 import { Button } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 import {
-  selectTasks,
   toggleHideDone,
   setAllDone,
   selectHideDone,
+  selectAreTasksEmpty,
+  selectIsEveryTaskDone,
 } from "../tasksSlice";
 
 const Buttons = () => {
-  const tasks = useSelector(selectTasks);
   const hideDone = useSelector(selectHideDone);
+  const areTasksEmpty = useSelector(selectAreTasksEmpty);
+  const isEveryTaskDone = useSelector(selectIsEveryTaskDone);
 
   const dispatch = useDispatch();
 
   return (
     <div>
-      {tasks.length > 0 && (
+      {!areTasksEmpty && (
         <>
           <Button onClick={() => dispatch(toggleHideDone())} margin>
             {hideDone ? "Show " : "Hide "} completed
@@ -23,7 +25,7 @@ const Buttons = () => {
 
           <Button
             onClick={() => dispatch(setAllDone())}
-            disabled={tasks.every(({ done }) => done)}
+            disabled={isEveryTaskDone}
           >
             Complete all
           </Button>
