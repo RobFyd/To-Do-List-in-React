@@ -26,6 +26,7 @@ const tasksSlice = createSlice({
         task.done = true;
       });
     },
+    fetchExampmeTasks: () => { },
   },
 });
 
@@ -35,6 +36,7 @@ export const {
   toggleTaskDone,
   removeTask,
   setAllDone,
+  fetchExampmeTasks,
 } = tasksSlice.actions;
 
 const selectTasksState = (state) => state.tasks;
