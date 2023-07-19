@@ -12,6 +12,5 @@ function* fetchExampleTasksHandler() {
 }
 
 export function* watchFetchExampleTasks() {
-    console.log("Saga is connected");
   yield takeEvery(fetchExampleTasks.type, fetchExampleTasksHandler);
 }
