@@ -6,7 +6,7 @@ import {
   selectHideDone,
   selectAreTasksEmpty,
   selectIsEveryTaskDone,
-  fetchExampmeTasks,
+  fetchExampleTasks,
 } from "../tasksSlice";
 
 const Buttons = () => {
@@ -18,7 +18,7 @@ const Buttons = () => {
 
   return (
     <div>
-      <Button onClick={() => dispatch(fetchExampmeTasks())}>
+      <Button onClick={() => dispatch(fetchExampleTasks())}>
         Download example tasks
       </Button>
       {!areTasksEmpty && (
