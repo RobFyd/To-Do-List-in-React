@@ -18,7 +18,7 @@ const Buttons = () => {
 
   return (
     <div>
-      <Button onClick={() => dispatch(fetchExampleTasks())}>
+      <Button onClick={() => dispatch(fetchExampleTasks())} margin>
         Download example tasks
       </Button>
       {!areTasksEmpty && (
