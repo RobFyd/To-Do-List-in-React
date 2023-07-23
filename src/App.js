@@ -1,11 +1,11 @@
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { HashRouter, Switch, Route, Link } from "react-router-dom";
 import Tasks from "./features/tasks/Tasks";
 import Author from "./features/author/Author";
 
 // "react-router-dom/cjs/react-router-dom.min"
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <nav>
       <ul>
         <li>
@@ -24,7 +24,7 @@ const App = () => (
         </Route>
       </Switch>
     </nav>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
