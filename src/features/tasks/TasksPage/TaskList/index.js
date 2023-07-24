@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { List, Item, Content, Button, DeleteButton } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 import {
@@ -21,7 +22,9 @@ const TaskList = () => {
             {task.done ? "✔" : ""}
           </Button>
 
-          <Content done={task.done}>{task.content}</Content>
+          <Content done={task.done}>
+            <Link to={`/tasksList/${task.id}`}>{task.content}</Link>
+            </Content>
 
           <DeleteButton onClick={() => dispatch(removeTask(task.id))}>
             🗑
