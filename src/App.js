@@ -1,5 +1,5 @@
 import { HashRouter, Switch, Route, NavLink, Redirect } from "react-router-dom";
-import Tasks from "./features/tasks/Tasks";
+import Tasks from "./features/tasks/TasksPage";
 import Author from "./features/author/Author";
 
 const App = () => (

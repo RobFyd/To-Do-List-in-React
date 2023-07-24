@@ -5,7 +5,7 @@ import {
   toggleTaskDone,
   removeTask,
   selectHideDone,
-} from "../tasksSlice";
+} from "../../tasksSlice";
 
 const TaskList = () => {
   const tasks = useSelector(selectTasks);
