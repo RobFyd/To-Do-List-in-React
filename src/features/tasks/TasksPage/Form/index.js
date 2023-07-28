@@ -1,8 +1,9 @@
 import { useState, useRef } from "react";
 import { useDispatch } from "react-redux";
-import { TasksForm, Field, Button } from "./styled";
+import { TasksForm, Button } from "./styled";
 import { addTask } from "../../tasksSlice";
 import { nanoid } from "@reduxjs/toolkit";
+import Input from "../../Input";
 
 const Form = () => {
   const [newTaskContent, setNewTaskContent] = useState("");
@@ -29,7 +30,7 @@ const Form = () => {
 
   return (
     <TasksForm onSubmit={onFormSubmit}>
-      <Field
+      <Input
         ref={inputRef}
         value={newTaskContent}
         required
