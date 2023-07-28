@@ -63,7 +63,7 @@ export const selectTasksByQuery = (state, query) => {
   }
 
   return tasks.filter(({ content }) =>
-    content.includes(query.trim())
+    content.toUpperCase().includes(query.trim().toUpperCase())
   );
 };
 
