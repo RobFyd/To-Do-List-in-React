@@ -1,6 +1,5 @@
-import { useLocation } from "react-router-dom";
-import Input from "../../Input";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import { useLocation, useHistory } from "react-router-dom";
+import Input, { TasksFormSearch } from "../../Input";
 
 export default () => {
   const location = useLocation();
@@ -20,10 +19,12 @@ export default () => {
   };
 
   return (
-    <Input
-      placeholder="Filter tasks"
-      value={query || ""}
-      onChange={onInputChange}
-    />
+    <TasksFormSearch>
+      <Input
+        placeholder="Filter tasks"
+        value={query || ""}
+        onChange={onInputChange}
+      />
+    </TasksFormSearch>
   );
 };
