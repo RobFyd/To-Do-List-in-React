@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const TasksFormSearch = styled.form`
   padding: 20px;
@@ -17,12 +17,18 @@ export default styled.input`
   border: 1px solid ${({ theme }) => theme.lightgray};
   flex-grow: 1;
 
+  ${({ margin }) =>
+    margin &&
+    css`
+      margin-right: 0px;
+    `}
+
   &:enabled {
     border-color: ${({ theme }) => theme.lightgrey};
   }
 
   &:read-only {
-    color: ${({ theme }) => theme.red}; //nie dziala
+    color: ${({ theme }) => theme.red}; // do sprawdzenia
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

@@ -1,7 +1,7 @@
 import { useLocation, useHistory } from "react-router-dom";
 import Input, { TasksFormSearch } from "../../Input";
 
-export default () => {
+const Search = () => {
   const location = useLocation();
   const history = useHistory();
   const query = new URLSearchParams(location.search).get("search");
@@ -20,7 +20,7 @@ export default () => {
 
   return (
     <TasksFormSearch>
-      <Input
+      <Input margin
         placeholder="Filter tasks"
         value={query || ""}
         onChange={onInputChange}
@@ -28,3 +28,5 @@ export default () => {
     </TasksFormSearch>
   );
 };
+
+export default Search;
