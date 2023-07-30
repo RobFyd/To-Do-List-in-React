@@ -28,7 +28,7 @@ export default styled.input`
   }
 
   &:read-only {
-    color: ${({ theme }) => theme.red}; // do sprawdzenia
+    color: ${({ theme }) => theme.red};  // do sprawdzenia
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
