@@ -5,12 +5,17 @@ import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Container from "../../../common/Container";
 import Search from "./Search";
+import DownloadButton from "./DownloadButton";
 
 function TasksPage() {
   return (
     <Container>
       <Header title="Task list" />
-      <Section title="Add a new task" body={<Form />} />
+      <Section
+        title="Add a new task"
+        extraHeaderContent={<DownloadButton />}
+        body={<Form />}
+      />
 
       <Section title="Searcher" body={<Search />} />
 
