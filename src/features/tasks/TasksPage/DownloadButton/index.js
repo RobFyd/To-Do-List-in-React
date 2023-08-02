@@ -8,7 +8,7 @@ const DownloadButton = () => {
 
   return (
     <div>
-      <Button disabled={loading} onClick={() => dispatch(fetchExampleTasks())}>
+      <Button onClick={() => dispatch(fetchExampleTasks())} disabled={loading}>
         {loading ? "Loading..." : "Download example tasks"}
       </Button>
     </div>

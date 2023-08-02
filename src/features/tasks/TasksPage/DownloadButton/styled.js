@@ -5,14 +5,17 @@ export const Button = styled.button`
   background-color: transparent;
   border: none;
   cursor: pointer;
-  transition: 0.5s;
 
   &:hover {
     color: ${({ theme }) => theme.lightseagreen};
     transition: 0.5s;
   }
 
+  &:disabled {
+    color: ${({ theme }) => theme.lightgray};
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        margin-bottom: 5px;
-      }
+    margin-bottom: 5px;
+  }
 `;
