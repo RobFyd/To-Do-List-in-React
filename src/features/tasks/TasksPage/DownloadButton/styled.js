@@ -8,7 +8,6 @@ export const Button = styled.button`
 
   &:hover {
     color: ${({ theme }) => theme.lightseagreen};
-    transition: 0.5s;
   }
 
   &:disabled {
