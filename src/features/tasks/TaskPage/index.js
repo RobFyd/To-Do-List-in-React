@@ -4,6 +4,7 @@ import Container from "../../../common/Container";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { getTaskById } from "../tasksSlice";
+import { TaskDetails } from "./styled";
 
 function TaskPage() {
   const { id } = useParams();
@@ -13,11 +14,13 @@ function TaskPage() {
     <Container>
       <Header title="Task details" />
       <Section
-        title={task ? task.content : "Task not found 😒"}
+        title={task ? task.content : "Task not found 🫥"}
         body={
-          <>
-            <strong>Done:</strong> {task.done ? "Yes" : "No"}
-          </>
+          task ? (
+            <TaskDetails>
+              <strong>Done:</strong> {task.done ? "Yes" : "No"}
+            </TaskDetails>
+          ) : null
         }
       />
     </Container>
