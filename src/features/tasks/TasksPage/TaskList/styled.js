@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
@@ -55,4 +56,9 @@ export const DeleteButton = styled(Button)`
   &:active {
     filter: brightness(160%);
   }
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: ${({ theme }) => theme.teal};
 `;
