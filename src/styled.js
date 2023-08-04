@@ -4,8 +4,6 @@ import { NavLink } from "react-router-dom";
 const activeClassName = "active";
 
 export const MainNavigation = styled.ul`
-  color: white;
-  text-decoration: none;
   list-style-type: none;
   padding: 20px;
   background-color: ${({ theme }) => theme.teal};
@@ -16,7 +14,7 @@ export const MainNavigation = styled.ul`
 export const StyledNavLink = styled(NavLink).attrs(() => ({
   activeClassName: activeClassName,
 }))`
-  color: white;
+  color: ${({ theme }) => theme.white};
   text-decoration: none;
   font-size: large;
   padding: 25px;

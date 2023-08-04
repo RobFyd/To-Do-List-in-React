@@ -23,6 +23,9 @@ My To Do List in React contains:
 - ES6 + features
 - React - Redux
 - Redux Toolkit
+- Redux-Saga
+- Redux toolkit
+- React Router
 - HTML
 - Babel
 - BEM convention
