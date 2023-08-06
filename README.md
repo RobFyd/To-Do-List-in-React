@@ -6,7 +6,7 @@ The next stage in which the To-Do-List tool was moved to React.js. I created it 
 
 ### Demo
 
-![To Do List](https://github.com/RobFyd/To-Do-List-in-React/blob/main/public/exchangerNewGif2.gif?raw=true)
+![To Do List](https://github.com/RobFyd/To-Do-List-in-React/blob/main/graphics/exchangerNewGif2.gif?raw=true)
 
 My To Do List in React contains:
 
