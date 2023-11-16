@@ -46,9 +46,13 @@ If you want to learn more and test the functionality of my tool, click below:
 [To Do List](https://robfyd.github.io/To-Do-List-in-React/)
 
 
+<br>
+<br>
+
 ```javascript
-let x = "love coding";
-console.log(x+" :)");
+let x = "Thank you for your time";
+console.log(x);
+// :)
 ```
 
 ## Getting Started with Create React App
