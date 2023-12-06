@@ -2,14 +2,19 @@
 
 ## *Description*
 
-The next stage in which the To-Do-List tool was moved to React.js. I created it as part of the "Frontend developer from scratch" course. Below is a demo of the project. The tool is still being improved.
+### The next stage in which the To-Do-List tool was moved to React.js. I created it as part of the "Frontend developer from scratch" course. Below is a demo of the project. The tool is still being improved.
 
-### Demo
+## *Demo*
 
 ![To Do List](https://github.com/RobFyd/To-Do-List-in-React/blob/main/graphics/exchangerNewGif2.gif?raw=true)
 
-My To Do List in React contains:
+## *My To Do List in React contains:*
 
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,github,vscode,styledcomponents,nodejs,redux)
+
+- HTML
+- CSS
+- BEM convention
 - JavaScript - ES6
 - React.js
 - ReactDOM, Babel
@@ -18,18 +23,12 @@ My To Do List in React contains:
 - Immutability
 - Hooks
 - Custom Hooks
-- Node.js
 - Local Storage
-- ES6 + features
-- React - Redux
+- React-Redux
 - Redux Toolkit
 - Redux-Saga
 - Redux toolkit
 - React Router
-- HTML
-- Babel
-- BEM convention
-- CSS
 - Styled Components
 - Flex
 - Grid
