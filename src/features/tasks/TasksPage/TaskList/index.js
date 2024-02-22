@@ -5,6 +5,7 @@ import {
   Button,
   DeleteButton,
   StyledLink,
+  ClickMe,
 } from "./styled";
 import { useSelector, useDispatch } from "react-redux";
 import {
@@ -33,7 +34,9 @@ const TaskList = () => {
           </Button>
 
           <Content done={task.done}>
-            <StyledLink to={`/tasksList/${task.id}`}>{task.content}</StyledLink>
+            <StyledLink to={`/tasksList/${task.id}`}>
+              <span>{task.content}</span> <ClickMe>CLICK ME</ClickMe>
+            </StyledLink>
           </Content>
 
           <DeleteButton onClick={() => dispatch(removeTask(task.id))}>

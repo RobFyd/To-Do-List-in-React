@@ -26,7 +26,9 @@ export const Content = styled.span`
   ${({ done }) =>
     done &&
     css`
-      text-decoration: line-through;
+      span {
+        text-decoration: line-through;
+      }
     `}
 `;
 
@@ -61,4 +63,12 @@ export const DeleteButton = styled(Button)`
 export const StyledLink = styled(Link)`
   text-decoration: none;
   color: ${({ theme }) => theme.teal};
+`;
+
+export const ClickMe = styled.div`
+  margin-top: 2px;
+  font-size: 8px;
+  font-weight: bold;
+  color: ${({ theme }) => theme.black};
+  text-decoration: none !important;
 `;

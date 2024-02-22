@@ -10,6 +10,7 @@ export const theme = {
   transparent: "rgba(0,0,0,0)",
   forestgreen: "#228c22",
   amaranth: "#db143c",
+  black: "#000000",
 
   breakpoints: {
     mobileMax: 500,
