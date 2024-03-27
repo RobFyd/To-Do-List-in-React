@@ -1,6 +1,10 @@
 import styled, { css } from "styled-components";
 
-export const Button = styled.button`
+interface ButtonProps {
+  margin?: string;
+}
+
+export const Button = styled.button<ButtonProps>`
   color: ${({ theme }) => theme.teal};
   background-color: transparent;
   border: none;
@@ -20,7 +24,7 @@ export const Button = styled.button`
   ${({ margin }) =>
     margin &&
     css`
-      margin: 0px 15px 0px 0px;
+      margin: ${margin};
 
       @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-bottom: 5px;

@@ -19,7 +19,7 @@ const Buttons = () => {
     <div>
       {!areTasksEmpty && (
         <>
-          <Button onClick={() => dispatch(toggleHideDone())} margin>
+          <Button onClick={() => dispatch(toggleHideDone())} margin="0px 15px 0px 0px">
             {hideDone ? "Show " : "Hide "} completed
           </Button>
 
@@ -36,3 +36,4 @@ const Buttons = () => {
 };
 
 export default Buttons;
+
