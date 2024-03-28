@@ -1,1 +1,2 @@
-export default "search";
+const search = "search";
+export default search;
