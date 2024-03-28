@@ -1,5 +1,9 @@
 import styled, { css } from "styled-components";
 
+interface InputProps {
+  margin?: string;
+}
+
 export const TasksFormSearch = styled.form`
   padding: 20px;
   display: flex;
@@ -11,7 +15,7 @@ export const TasksFormSearch = styled.form`
   }
 `;
 
-export default styled.input`
+export default styled.input<InputProps>`
   margin-right: 20px;
   padding: 8px 5px;
   border: 1px solid ${({ theme }) => theme.lightgray};
