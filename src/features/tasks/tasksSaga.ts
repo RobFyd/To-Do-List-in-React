@@ -14,8 +14,9 @@ import {
 } from "./tasksSlice";
 import { getExampleTasks } from "./getExampleTasks";
 import { saveTasksInLocalStorage } from "./tasksLocalStorage";
+import { SagaIterator } from "redux-saga";
 
-function* fetchExampleTasksHandler() {
+function* fetchExampleTasksHandler(): SagaIterator {
   try {
     yield delay(750);
     const exampleTasks = yield call(getExampleTasks);
@@ -26,7 +27,7 @@ function* fetchExampleTasksHandler() {
   }
 }
 
-function* saveTasksInLocalStorageHandler() {
+function* saveTasksInLocalStorageHandler(): SagaIterator {
   const tasks = yield select(selectTasks);
   yield call(saveTasksInLocalStorage, tasks);
 }
