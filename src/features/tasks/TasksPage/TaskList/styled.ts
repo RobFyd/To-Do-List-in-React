@@ -22,7 +22,7 @@ export const Item = styled.li`
     `}
 `;
 
-export const Content = styled.span`
+export const Content = styled.span<{ done?: boolean }>`
   ${({ done }) =>
     done &&
     css`

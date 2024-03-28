@@ -15,8 +15,13 @@ import {
   selectTasksByQuery,
 } from "../../tasksSlice";
 import { useLocation } from "react-router-dom";
+import { Task } from "../../types";
 
-const TaskList = () => {
+interface TaskListProps {
+  tasks: Task[];
+}
+
+const TaskList: React.FC<TaskListProps> = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search).get("search");
 
@@ -27,7 +32,7 @@ const TaskList = () => {
 
   return (
     <List>
-      {tasks.map((task) => (
+      {tasks.map((task: Task) => (
         <Item hidden={task.done && hideDone} key={task.id}>
           <Button onClick={() => dispatch(toggleTaskDone(task.id))}>
             {task.done ? "✔" : ""}
