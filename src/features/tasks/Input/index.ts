@@ -32,7 +32,7 @@ export default styled.input<InputProps>`
   }
 
   &:read-only {
-    color: ${({ theme }) => theme.red};  // do sprawdzenia
+    color: ${({ theme }) => theme.red};  // to check
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
