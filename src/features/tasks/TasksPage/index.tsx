@@ -1,5 +1,5 @@
 import Form from "./Form";
-import TaskList from "./TaskList";
+import List from "./TaskList";
 import Buttons from "./SectionButtons";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
@@ -21,7 +21,7 @@ function TasksPage() {
 
       <Section
         title="Your tasks"
-        body={<TaskList />}
+        body={<List tasks={[]} />}
         extraHeaderContent={<Buttons />}
       />
     </Container>
