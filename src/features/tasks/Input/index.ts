@@ -28,7 +28,7 @@ export default styled.input<InputProps>`
     `}
 
   &:enabled {
-    border-color: ${({ theme }) => theme.lightgrey};
+    border-color: ${({ theme }) => theme.lightgray};
   }
 
   &:read-only {
