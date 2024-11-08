@@ -15,23 +15,16 @@ function AuthorPage() {
               <strong>Hello</strong> 🙂
             </p>
             <p>
-              My name is Robert and I am a beginner frontend developer. I come
-              from Poland, but for about 10 years, I have been living in
-              England.
+              My name is Robert, and while I originally hail from Poland, I've been calling England my home for the last decade. I'm a frontend developer with about two years of experience under my belt, so I’m past the beginner stage and continuously evolving.
             </p>
             <p>
-              Coding has become my new passion, and I can't tear myself away
-              from the screen when I'm creating something new and interesting.
-              When I need a rest, I start my favorite computer game or tinker
-              with the car or do some projects around the house. I also love to
-              spend time outdoors actively, hiking in the bosom of nature is
-              what I love, and it allows me to take a break from everyday life.
-              This year, I have visited Malvern Hills, Puzzlewood, Clearwell
-              Caves, and Dunraven Bay, among others.
+              Coding has quickly grown into a passion of mine. There's nothing quite like the thrill of bringing new and interesting projects to life on my screen. When I'm not coding, you might find me losing track of time in my favorite video game, tinkering with my car, or tackling a fun DIY project at home.
             </p>
             <p>
-              Programming gives me a lot of satisfaction and enables me to
-              constantly develop. I hope that I will stay on this path forever👍
+              I also have a deep love for the great outdoors. Hiking through natural landscapes like Malvern Hills, Puzzlewood, Clearwell Caves, Dunraven Bay, and many more refreshes my spirit and gives me a much-needed break from the tech world.
+            </p>
+            <p>
+              Programming is not just a job for me, it is a journey of continuous learning and personal growth. I’m excited to see where this path leads and am eager to contribute to creative and dynamic teams. Let’s connect and create something incredible together! 👍
             </p>
           </WrapperAuthor>
         }
