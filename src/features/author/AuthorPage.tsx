@@ -12,7 +12,7 @@ function AuthorPage() {
         body={
           <WrapperAuthor>
             <p>
-              <strong>Hello</strong> 🙂
+              <strong>Hi there !</strong> 🙂
             </p>
             <p>
               My name is Robert, and while I originally hail from Poland, I've been calling England my home for the last decade. I'm a frontend developer with about two years of experience under my belt, so I’m past the beginner stage and continuously evolving.
