@@ -10,12 +10,13 @@
 
 ## *My To Do List in React contains:*
 
-![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,react,redux,git,styledcomponents,figma,github,vscode,styledcomponents,nodejs,redux)
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,ts,react,redux,nodejs,git,styledcomponents,figma,github,vscode)
 
 - HTML
 - CSS
 - BEM convention
 - JavaScript - ES6
+- TypeScript
 - React.js
 - ReactDOM, Babel
 - Webpack
