@@ -40,7 +40,7 @@ const TaskList: React.FC<TaskListProps> = () => {
 
           <Content done={task.done}>
             <StyledLink to={`/tasksList/${task.id}`}>
-              <span>{task.content}</span> <ClickMe>CLICK ME</ClickMe>
+              <span>{task.content}</span> <ClickMe>DETAILS</ClickMe>
             </StyledLink>
           </Content>
 

@@ -66,9 +66,8 @@ export const StyledLink = styled(Link)`
 `;
 
 export const ClickMe = styled.div`
-  margin-top: 2px;
+  margin-top: 3px;
   font-size: 8px;
-  font-weight: bold;
   color: ${({ theme }) => theme.black};
   text-decoration: none !important;
 `;
